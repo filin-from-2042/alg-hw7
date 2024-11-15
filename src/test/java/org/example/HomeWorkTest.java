@@ -28,7 +28,7 @@ class HomeWorkTest {
 
     @Test
     void checkSecond(){
-        assertEquals(asList("3 1 5 2 4".split(" ")), homeWork.getLeaveOrder(5, 3));
+        assertEquals(asList(3, 1, 5, 2, 4), homeWork.getLeaveOrder(5, 3));
     }
 
 
